@@ -75,15 +75,5 @@
       <description>Binet’s Formula The Binet&#39;s formula is also known as the explicit expression of *n-th* term of Fibbonacci Sequence. See the proof as follows: In here I should insert my pdf document. still figuring our how to use knitr. Let&#39;s try this: insert a sentence in HTML file and check if it reflects on the web. </description>
     </item>
     
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>This is a brief introduction
-You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday’s Markdown and Pandoc’s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</description>
-    </item>
-    
   </channel>
 </rss>

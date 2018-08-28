@@ -21,15 +21,15 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    name = "CV"
+    url = "/../"
     weight = 3
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
     weight = 4
 [[menu.main]]
-    name = "Subscribe"
+    name = "Index"
     url = "/index.xml"
 
 [params]

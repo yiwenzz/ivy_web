@@ -104,15 +104,5 @@
 My name is Yiwen, a graduate student studying in University of Kansas. My research interests span a variety of areas, such as data analysis, data visualization, text mining and others. I had my undergraduate study in mathematics, which is good and bad. I guess there is more good than bad.</description>
     </item>
     
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>This is a brief introduction
-You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday’s Markdown and Pandoc’s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</description>
-    </item>
-    
   </channel>
 </rss>
