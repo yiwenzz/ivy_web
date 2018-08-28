@@ -1,9 +1,9 @@
 ---
-title: About Hugo Ivy
-author: Yihui Xie
-date: '2017-08-06'
+title: "About"
+date: "2016-05-05T21:48:51-07:00"
 ---
 
-This Hugo theme was ported from [Ivy](https://github.com/dmulholland/ivy), a minimalist website generator built in Python. I don't have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.
+The website is build for the purpose of storing personal work and blogs. For more information, Contact yiwen at thomas5@live.cn   :)
 
-I hope you will enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-ivy). Happy hacking!
+---
+My name is Yiwen, a graduate student studying in University of Kansas. My research interests span a variety of areas, such as data analysis, data visualization, text mining and others. I had my undergraduate study in mathematics, which is good and bad. I guess there is more good than bad. Math enables me to understand and manipulate data sets. The bad thing is that math is a black hole. I used to have no feeling about math due to the fact I used to know nothing about applied mathematics. Until now, I realized my math skills are too limited to be able to conduct a lot of researches. Hence, I am aiming to become a mathematician, at least a half one is good enough. 
