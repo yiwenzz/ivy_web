@@ -33,7 +33,7 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
-    description = "Blogs | Work Output | Thoughts"
+    description = ""
     footer = "&copy; [World with love](https://google.com) 2018 | [Github](https://github.com/yiwenzz) | [Twitter](https://twitter.com/ywuKU)"
 
   highlightjsVersion = "9.12.0"
