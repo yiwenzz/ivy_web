@@ -2,15 +2,13 @@
 title: "A Combinatorial Proof of Binet's Formula"
 date: "2017-12-01T21:49:57-07:00"
 categories:
-  - Work
+  - Products
 tags:
   - Combinatorics
   - Mathematics
   - Proofs
-slug: another-note
 ---
 
-library('knitr')
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -18,6 +16,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Binet's Formula
 
-The Binet's formula is also known as the explicit expression of *n-th* term of Fibbonacci Sequence. See the proof as follows:
+The Binet's formula is also known as the explicit expression of *n-th* term of the Fibbonacci Sequence. 
 
-In here I should insert my pdf document. still figuring our how to use knitr. 
+### Introduction 
+Counting is a very basic skill. We have all been learning how to count since we were very young. If we think back to our childhood, other than simple vocabulary like “daddy” and “mommy”, the most common thing was to count the numbers from one to ten. In this case, counting could be the first exposure to mathematics for many people. Now, we still count in daily life, such as money exchange, time management, fortune accumulation, etc. However, the beauty of counting is more than that. We can apply the concept of counting in various mathematical problems and proofs.
+
+In 1843, the French mathematician Jacques Philippe Marie Binet found an explicit representation for terms of the Fibonacci sequence by...
+
+The .pdf file will be ready to download soon.

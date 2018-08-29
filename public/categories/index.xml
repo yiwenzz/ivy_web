@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Blog</title>
-      <link>/categories/blog/</link>
+      <title>Blogs</title>
+      <link>/categories/blogs/</link>
       <pubDate>Sat, 18 Aug 2018 21:49:57 -0700</pubDate>
       
-      <guid>/categories/blog/</guid>
+      <guid>/categories/blogs/</guid>
       <description></description>
     </item>
     
@@ -30,20 +30,20 @@
     </item>
     
     <item>
-      <title>Thoughts</title>
-      <link>/categories/thoughts/</link>
-      <pubDate>Fri, 20 Apr 2018 21:49:57 -0700</pubDate>
+      <title>Products</title>
+      <link>/categories/products/</link>
+      <pubDate>Mon, 25 Jun 2018 21:49:57 -0700</pubDate>
       
-      <guid>/categories/thoughts/</guid>
+      <guid>/categories/products/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Work</title>
-      <link>/categories/work/</link>
-      <pubDate>Fri, 01 Dec 2017 21:49:57 -0700</pubDate>
+      <title>Thoughts</title>
+      <link>/categories/thoughts/</link>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
       
-      <guid>/categories/work/</guid>
+      <guid>/categories/thoughts/</guid>
       <description></description>
     </item>
     

@@ -1,6 +1,12 @@
 ---
 title: "Ideas of Sentiment Analysis Project"
 date: "2018-07-01T21:49:57-07:00"
+categories:
+  - Thoughts
+tags:
+  - Sentiment analysis
+  - Education
+  - Public opinions
 ---
 
 # Sentiment Analysis of Online Education Programs

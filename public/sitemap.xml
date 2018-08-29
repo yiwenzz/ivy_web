@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>/post/2017/12/01/another-note/</loc>
+    <loc>/post/2017/12/01/a-combinatorial-proof-of-binets-formula/</loc>
     <lastmod>2017-12-01T21:49:57-07:00</lastmod>
   </url>
   
@@ -43,7 +43,7 @@
   </url>
   
   <url>
-    <loc>/categories/blog/</loc>
+    <loc>/categories/blogs/</loc>
     <lastmod>2018-08-18T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -67,6 +67,12 @@
   </url>
   
   <url>
+    <loc>/tags/education/</loc>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/example/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -81,12 +87,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2018-08-18T21:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/land-use/</loc>
-    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -114,8 +114,32 @@
   </url>
   
   <url>
+    <loc>/categories/products/</loc>
+    <lastmod>2018-06-25T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/proofs/</loc>
     <lastmod>2017-12-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/public-opinions/</loc>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2018-06-25T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sentiment-analysis/</loc>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,20 +150,20 @@
   </url>
   
   <url>
+    <loc>/tags/text-analysis/</loc>
+    <lastmod>2018-06-25T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/thoughts/</loc>
-    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/tutorial/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/work/</loc>
-    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   

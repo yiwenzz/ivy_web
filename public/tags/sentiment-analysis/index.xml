@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thoughts on Yiwen</title>
-    <link>/categories/thoughts/</link>
-    <description>Recent content in Thoughts on Yiwen</description>
+    <title>Sentiment analysis on Yiwen</title>
+    <link>/tags/sentiment-analysis/</link>
+    <description>Recent content in Sentiment analysis on Yiwen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jul 2018 21:49:57 -0700</lastBuildDate>
     
-	<atom:link href="/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,16 +22,6 @@
 对于用网络授课的公司网页系统，我们将进行网页数据抓取(web scraping)，然后利用Liu的方法进行public opinion分析。主要步骤如下：
  Retriving Parsing Exploring &amp;amp; Analyzing Visualizing  研究目的如下：
  探索学生偏好。由于网上教育是一种新型授课模式，用public opinion的方式来探索学生对课程的评价 教育项目/课程评估 教师评估 References for future students and program managers  </description>
-    </item>
-    
-    <item>
-      <title>Make Neighborhood Green Again</title>
-      <link>/post/2018/04/20/make-neighborhood-green-again/</link>
-      <pubDate>Fri, 20 Apr 2018 21:49:57 -0700</pubDate>
-      
-      <guid>/post/2018/04/20/make-neighborhood-green-again/</guid>
-      <description>West Lawrence Greening Project This is a story map made through https://storymaps.arcgis.com/en/. The story map demonstrates the lack of walkability and canopy in West Lawrence neighborhoods. More details can be found at https://www.arcgis.com/apps/Cascade/index.html?appid=21536c10fe15412aa449045c9c6b0444.
- </description>
     </item>
     
   </channel>

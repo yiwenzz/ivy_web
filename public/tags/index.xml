@@ -30,20 +30,20 @@
     </item>
     
     <item>
+      <title>Education</title>
+      <link>/tags/education/</link>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GIS</title>
       <link>/tags/gis/</link>
       <pubDate>Fri, 20 Apr 2018 21:49:57 -0700</pubDate>
       
       <guid>/tags/gis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Land Use</title>
-      <link>/tags/land-use/</link>
-      <pubDate>Fri, 20 Apr 2018 21:49:57 -0700</pubDate>
-      
-      <guid>/tags/land-use/</guid>
       <description></description>
     </item>
     
@@ -71,6 +71,42 @@
       <pubDate>Fri, 01 Dec 2017 21:49:57 -0700</pubDate>
       
       <guid>/tags/proofs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public opinions</title>
+      <link>/tags/public-opinions/</link>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/public-opinions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 25 Jun 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis</title>
+      <link>/tags/sentiment-analysis/</link>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Analysis</title>
+      <link>/tags/text-analysis/</link>
+      <pubDate>Mon, 25 Jun 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/text-analysis/</guid>
       <description></description>
     </item>
     

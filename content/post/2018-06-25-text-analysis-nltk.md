@@ -1,6 +1,11 @@
 ---
 title: "Text Analysis-Python"
 date: "2018-06-25T21:49:57-07:00"
+categories:
+  - Products
+tags:
+  - Python
+  - Text Analysis
 ---
 
 This is a brief introduction to text analysis by using python. To be general, the processes are as follows:
