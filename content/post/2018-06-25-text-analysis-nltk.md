@@ -5,7 +5,7 @@ categories:
   - Products
 tags:
   - Python
-  - Text Analysis
+  - Text analysis
   - Data
 ---
 

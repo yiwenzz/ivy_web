@@ -21,20 +21,20 @@
     </item>
     
     <item>
+      <title>Data</title>
+      <link>/tags/data/</link>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ESRI</title>
       <link>/tags/esri/</link>
       <pubDate>Fri, 20 Apr 2018 21:49:57 -0700</pubDate>
       
       <guid>/tags/esri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>/tags/education/</link>
-      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
-      
-      <guid>/tags/education/</guid>
       <description></description>
     </item>
     
@@ -66,56 +66,38 @@
     </item>
     
     <item>
-      <title>Proofs</title>
-      <link>/tags/proofs/</link>
-      <pubDate>Fri, 01 Dec 2017 21:49:57 -0700</pubDate>
-      
-      <guid>/tags/proofs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public opinions</title>
-      <link>/tags/public-opinions/</link>
-      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
-      
-      <guid>/tags/public-opinions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>/tags/python/</link>
-      <pubDate>Mon, 25 Jun 2018 21:49:57 -0700</pubDate>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
       
       <guid>/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sentiment analysis</title>
-      <link>/tags/sentiment-analysis/</link>
-      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
+      <title>Statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sentiment-analysis/</guid>
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Text Analysis</title>
+      <title>Text analysis</title>
       <link>/tags/text-analysis/</link>
-      <pubDate>Mon, 25 Jun 2018 21:49:57 -0700</pubDate>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
       
       <guid>/tags/text-analysis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tutorial</title>
-      <link>/tags/tutorial/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Text mining</title>
+      <link>/tags/text-mining/</link>
+      <pubDate>Sun, 01 Jul 2018 21:49:57 -0700</pubDate>
       
-      <guid>/tags/tutorial/</guid>
+      <guid>/tags/text-mining/</guid>
       <description></description>
     </item>
     

@@ -77,22 +77,12 @@ Introduction Counting is a very basic skill. We have all been learning how to co
     </item>
     
     <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Analysus of Housing Prices, Features Based Study  – Albuquerque, NM</title>
+      <link>/post/2017/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
-    </item>
-    
-    <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:
- Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&amp;rsquo;m sure there will be more.</description>
+      <guid>/post/2017/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</guid>
+      <description>Introduction Analyzing home prices is based on different factors that could affect the price of a house. Home prices may be affected by different factors such as square footage, age, number of features, location, etc. In this study, a dataset from Albuquerque was taken including square feet, age, number of certain features (out of 11, from dishwasher, refrigerator, microwave, disposer, washer, intercom, skylight(s), compactor, dryer, handicap fit, cable TV access), custom built or not, corner location or not, whether the home was located in the Northeast sector of the city, and its annual taxes.</description>
     </item>
     
     <item>

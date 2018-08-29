@@ -28,13 +28,8 @@
   </url>
   
   <url>
-    <loc>/note/2017/06/14/another-note/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/note/2017/06/13/a-quick-note/</loc>
-    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+    <loc>/post/2017/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</loc>
+    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -61,20 +56,14 @@
   </url>
   
   <url>
-    <loc>/tags/esri/</loc>
-    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/education/</loc>
+    <loc>/tags/data/</loc>
     <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+    <loc>/tags/esri/</loc>
+    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -102,12 +91,6 @@
   </url>
   
   <url>
-    <loc>/note/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
     <lastmod>2018-08-18T21:49:57-07:00</lastmod>
     <priority>0</priority>
@@ -120,26 +103,14 @@
   </url>
   
   <url>
-    <loc>/tags/proofs/</loc>
-    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/public-opinions/</loc>
-    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/python/</loc>
-    <lastmod>2018-06-25T21:49:57-07:00</lastmod>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/sentiment-analysis/</loc>
-    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
+    <loc>/tags/statistics/</loc>
+    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,19 +122,19 @@
   
   <url>
     <loc>/tags/text-analysis/</loc>
-    <lastmod>2018-06-25T21:49:57-07:00</lastmod>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/text-mining/</loc>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/thoughts/</loc>
     <lastmod>2018-07-01T21:49:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tutorial/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

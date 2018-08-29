@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Text analysis on Yiwen</title>
-    <link>/tags/text-analysis/</link>
-    <description>Recent content in Text analysis on Yiwen</description>
+    <title>Text mining on Yiwen</title>
+    <link>/tags/text-mining/</link>
+    <description>Recent content in Text mining on Yiwen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jul 2018 21:49:57 -0700</lastBuildDate>
     
-	<atom:link href="/tags/text-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,16 +22,6 @@
 对于用网络授课的公司网页系统，我们将进行网页数据抓取(web scraping)，然后利用Liu的方法进行public opinion分析。主要步骤如下：
  Retriving Parsing Exploring &amp;amp; Analyzing Visualizing  研究目的如下：
  探索学生偏好。由于网上教育是一种新型授课模式，用public opinion的方式来探索学生对课程的评价 教育项目/课程评估 教师评估 References for future students and program managers  </description>
-    </item>
-    
-    <item>
-      <title>Text Analysis-Python</title>
-      <link>/post/2018/06/25/text-analysis-python/</link>
-      <pubDate>Mon, 25 Jun 2018 21:49:57 -0700</pubDate>
-      
-      <guid>/post/2018/06/25/text-analysis-python/</guid>
-      <description>This is a brief introduction to text analysis by using python. To be general, the processes are as follows:
- Set up correct working directory for importing document to process. Import .txt files in Python. Work towards the clean dataset as needed. Visualize data as requested.  There are many different ways to clean the dataset and alternate algorithms for text analysis. The following is the code along with some explaination of what I have learned for processing texts.</description>
     </item>
     
   </channel>
