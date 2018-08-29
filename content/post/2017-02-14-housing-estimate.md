@@ -10,7 +10,7 @@ tags:
 
 ---
 
-![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing1.png)
+![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing1.jpg)
 
 
 # Introduction
@@ -45,16 +45,16 @@ Based on the model selected, a home with 2100 square feet of living space; an ag
 For this estimated sale price, there is a 95% predication interval of (152,939; 228,449). This means that there is 95% confidence that a single home with 2100 square feet of living space, no custom features, and an annual tax of 1900 USD per year will sell for a price within this range. It is very important to note, however, that of all the data collected, the tax rates only fall between 223 and 1765 USD per year. As such, this prediction is outside the range of available data, and may not represent what will actually occur.  
 
 
-![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post1.png)
+![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post1.jpg)
 
-![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post2.png)
+![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post2.jpg)
 
-![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post3.png)
+![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post3.jpg)
 
 
-![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post4.png)
+![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post4.jpg)
 
-![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post5.png)
+![](/Users/yiwenw/Documents/GitHub/ivy_web/static/img/housing_post5.jpg)
 
 # Conclusion
 In summary, the selling price of a home in Albuquerque appears to be most closely related to the size of the home (living area in square feet), taxes assessed on the home, and the inclusion of custom features. There were some issues with the model, including a lack of constant variance and normality regarding the error of the regression. So, while the model may not be ideal for predicating home prices in Albuquerque, it does indicate that things like size, taxes paid, and custom features have a larger effect on price than qualities such as features or age. This generalization may extend to homes around the nation as well. In the future, it would be helpful to gather more data from more areas to test this hypothesis, but the data could be limited to taxes paid, sizes, and inclusion of custom features as opposed to needing to gather 8 sets of data. 
