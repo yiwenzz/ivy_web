@@ -1,6 +1,12 @@
 ---
 title: "Make Neighborhood Green Again"
 date: "2018-04-20T21:49:57-07:00"
+categories:
+  - Thoughts
+tags:
+  - ESRI
+  - GIS
+  - Land Use
 ---
 
 ```{r setup, include=FALSE}

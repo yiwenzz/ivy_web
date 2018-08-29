@@ -1,6 +1,12 @@
 ---
 title: "A Combinatorial Proof of Binet's Formula"
 date: "2017-12-01T21:49:57-07:00"
+categories:
+  - Proof
+tags:
+  - Combinatorics
+  - Mathematics
+slug: another-note
 ---
 
 library('knitr')

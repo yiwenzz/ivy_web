@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>/post/2017/12/01/a-combinatorial-proof-of-binets-formula/</loc>
+    <loc>/post/2017/12/01/another-note/</loc>
     <lastmod>2017-12-01T21:49:57-07:00</lastmod>
   </url>
   
@@ -48,14 +48,44 @@
   </url>
   
   <url>
+    <loc>/tags/combinatorics/</loc>
+    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/esri/</loc>
+    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/example/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/tags/gis/</loc>
+    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2018-08-18T21:49:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/land-use/</loc>
+    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mathematics/</loc>
+    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -71,7 +101,20 @@
   </url>
   
   <url>
+    <loc>/categories/proof/</loc>
+    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/thoughts/</loc>
+    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
