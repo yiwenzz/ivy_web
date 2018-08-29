@@ -6,6 +6,7 @@ categories:
 tags:
   - Life
   - 玄学
+  - Education
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-![](https://bookdown.org/yihui/rmarkdown/images/cover.png)
+![](https://img/hero.png)
 
 
 ## First of, let's look at the following plot.

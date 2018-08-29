@@ -6,6 +6,7 @@ categories:
 tags:
   - Python
   - Text Analysis
+  - Data
 ---
 
 This is a brief introduction to text analysis by using python. To be general, the processes are as follows:

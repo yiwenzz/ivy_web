@@ -5,8 +5,9 @@ categories:
   - Thoughts
 tags:
   - Sentiment analysis
-  - Education
-  - Public opinions
+  - Text mining
+  - Python
+  - Data
 ---
 
 # Sentiment Analysis of Online Education Programs
