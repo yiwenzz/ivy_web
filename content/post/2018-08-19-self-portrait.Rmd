@@ -6,7 +6,6 @@ categories:
 tags:
   - Life
   - 玄学
-  - Education
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-![](https://img/hero.png)
+![](http://2.bp.blogspot.com/-1YuMSKYES00/Umlyxo8kWlI/AAAAAAAAFOA/5pwxdMiHEVA/s640/pig.png)
 
 
 ## First of, let's look at the following plot.

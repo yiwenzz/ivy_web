@@ -3,4 +3,4 @@ title: Home
 ---
 
 
-# Thoughts | Blogs | Work Outputs
+# Blogs | Thoughts | Products
