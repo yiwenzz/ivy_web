@@ -1,6 +1,11 @@
 ---
 title: "Life Circle"
 date: "2018-08-18T21:49:57-07:00"
+categories:
+  - Blog
+tags:
+  - Life
+  - 玄学
 ---
 
 ```{r setup, include=FALSE}

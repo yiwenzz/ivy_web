@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>Life</title>
+      <link>/tags/life/</link>
+      <pubDate>Sat, 18 Aug 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mathematics</title>
       <link>/tags/mathematics/</link>
       <pubDate>Fri, 01 Dec 2017 21:49:57 -0700</pubDate>
@@ -57,11 +66,29 @@
     </item>
     
     <item>
+      <title>Proofs</title>
+      <link>/tags/proofs/</link>
+      <pubDate>Fri, 01 Dec 2017 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/proofs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorial</title>
       <link>/tags/tutorial/</link>
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>玄学</title>
+      <link>/tags/%E7%8E%84%E5%AD%A6/</link>
+      <pubDate>Sat, 18 Aug 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/tags/%E7%8E%84%E5%AD%A6/</guid>
       <description></description>
     </item>
     

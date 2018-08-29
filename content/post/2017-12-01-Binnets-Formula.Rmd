@@ -2,10 +2,11 @@
 title: "A Combinatorial Proof of Binet's Formula"
 date: "2017-12-01T21:49:57-07:00"
 categories:
-  - Proof
+  - Work
 tags:
   - Combinatorics
   - Mathematics
+  - Proofs
 slug: another-note
 ---
 
