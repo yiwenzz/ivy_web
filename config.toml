@@ -29,8 +29,8 @@ footnotereturnlinkcontents = "↩"
     url = "/tags/"
     weight = 4
 [[menu.main]]
-    name = "Index"
-    url = "/index.xml"
+    name = "CV"
+    url = "/cv/"
 
 [params]
     description = ""
