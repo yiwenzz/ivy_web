@@ -23,11 +23,11 @@ For the Time Series Plot of Weekly Per Theater Ticket Sales (Figure 1)r there is
 
 
 
-![](/img/mv1.jpg)
+![Figure 1](/img/mv1.jpg)
 The Time Series Plot of Daily Ticket Sales (Figure 2), overall there is a decreasing trend starting from May and almost leveled off in June. There is a seasonal variation can be found for daily because people are more likely to go to movies on weekends than weekdays. The seasonal variation shows a 7-day repeating pattern with 3-day peak, representing Friday, Saturday and Sunday, which more people prefer to go to movies on.
 
 
-![](/img/mv2.jpg)
+![Figure 2](/img/mv2.jpg)
 
 
 
@@ -39,7 +39,7 @@ The exponential model was fit using an alpha of 0.8. Initial attempts to optimiz
 ![](/img/mv3.jpg)
 
 
-![](/img/mv4.jpg)
+![Figure 3](/img/mv4.jpg)
 
 
 The same process was used (multiple iterations to find the best values) for the Holt-Winters method with a final model using an alpha of 0.8, a gamma of 0.3, and a delta of 0. The delta was selected to be 0 because the weekly ticket sales showed no seasonal trend. This model was again worse than the moving average.
@@ -50,7 +50,7 @@ Overall, the moving average model was best for the weekly, per-theater ticket sa
 
 As a secondary option, the Holt-Winters model also fit the data reasonably well (Figure 4). While there was a large overprediction for the first week, and some underprediction for the following several weeks, the model did a good job tracking the trend and pattern of the ticket sales. The sort of decay pattern is matched well, despite not having any seasonal effect (which the Holt-Winters tries to model). Additionally, this model had the second best MAD, and MSD. 
 
-![](/img/mv5.jpg)
+![Figure 4](/img/mv5.jpg)
 
 
 
@@ -61,7 +61,7 @@ This tended to show true as the Holt-Winters method had the best accuracy measur
 
 ![](/img/mv6.jpg)
 
-![](/img/mv7.jpg)
+![Figure 5](/img/mv7.jpg)
 
 Regression models were also fit with a single regression model having an equation of TicketSales = 4821 - 99.1(days since release). This model fit very poorly, however, due to the seasonality of the data a multiple regression model was also fit. Days since release was used as a continuous predictor with days of the week used as categorical predictors. The best equation was found by including a second-order term for days since release and using an interaction between days since release and days of the week. The actual equation was found to be the following, based on day of the week:
 
@@ -80,7 +80,7 @@ This regression equation had accuracy measures calculated manually to be 143; 97
 The moving average was selected as an alternate model (Figure 6), as its accuracy measures were generally good. It had the best MSD, second best MAD, and third MAPE of all the models. While this model did not do great in the first week, it steadied out and modeled the relative flatness of later ticket sales pretty well.  
 
 
-![](/img/mv8.jpg)
+![Figure 6](/img/mv8.jpg)
 
 
 # Conclusion
