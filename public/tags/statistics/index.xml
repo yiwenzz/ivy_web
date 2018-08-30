@@ -6,17 +6,26 @@
     <description>Recent content in Statistics on Yiwen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Analysus of Housing Prices, Features Based Study  – Albuquerque, NM</title>
-      <link>/post/2017/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</link>
-      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <title>Sample Time Series Analysis - Iron man 3</title>
+      <link>/post/2016/04/20/sample-time-series-analysis---iron-man-3/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</guid>
+      <guid>/post/2016/04/20/sample-time-series-analysis---iron-man-3/</guid>
+      <description>Motivation Movies have been a source of entertainment for people for many years. Summertme superhero blockbusters typically bring excitement and fun to an otherwise calm tme. Theaters can rake in huge sums of money on these types of movies. In partcularr the movie Iron Man 3r released on May 3r 2013r provides a great example of this phenomenon. The box ofce tcket sales of this movie have been analyzed to ft the best tme series plot possible to atempt to approximate future movie tcket sales for movies of this type.</description>
+    </item>
+    
+    <item>
+      <title>Analysus of Housing Prices, Features Based Study  – Albuquerque, NM</title>
+      <link>/post/2016/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</guid>
       <description>Introduction Analyzing home prices is based on different factors that could affect the price of a house. Home prices may be affected by different factors such as square footage, age, number of features, location, etc. In this study, a dataset from Albuquerque was taken including square feet, age, number of certain features (out of 11, from dishwasher, refrigerator, microwave, disposer, washer, intercom, skylight(s), compactor, dryer, handicap fit, cable TV access), custom built or not, corner location or not, whether the home was located in the Northeast sector of the city, and its annual taxes.</description>
     </item>
     
