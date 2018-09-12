@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Yiwen"
 theme = "hugo-ivy"
+math = true
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]

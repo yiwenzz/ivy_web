@@ -47,7 +47,8 @@ Introduction Counting is a very basic skill. We have all been learning how to co
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/2016/04/20/sample-time-series-analysis---iron-man-3/</guid>
-      <description>Motivation Movies have been a source of entertainment for people for many years. Summertme superhero blockbusters typically bring excitement and fun to an otherwise calm tme. Theaters can rake in huge sums of money on these types of movies. In partcularr the movie Iron Man 3r released on May 3r 2013r provides a great example of this phenomenon. The box ofce tcket sales of this movie have been analyzed to ft the best tme series plot possible to atempt to approximate future movie tcket sales for movies of this type.</description>
+      <description>$$ {J(\theta) =\frac{1}{2m} [\sum^m{i=1}(h\theta(x^{(i)}) - y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j} $$
+Motivation Movies have been a source of entertainment for people for many years. Summertme superhero blockbusters typically bring excitement and fun to an otherwise calm tme. Theaters can rake in huge sums of money on these types of movies. In partcularr the movie Iron Man 3r released on May 3r 2013r provides a great example of this phenomenon. The box ofce tcket sales of this movie have been analyzed to ft the best tme series plot possible to atempt to approximate future movie tcket sales for movies of this type.</description>
     </item>
     
     <item>
