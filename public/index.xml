@@ -63,6 +63,7 @@
       
       <guid>/post/2018/04/20/make-neighborhood-green-again/</guid>
       <description>West Lawrence Greening Project This is a story map made through https://storymaps.arcgis.com/en/. The story map demonstrates the lack of walkability and canopy in West Lawrence neighborhoods. More details can be found at https://www.arcgis.com/apps/Cascade/index.html?appid=21536c10fe15412aa449045c9c6b0444.
+ A simple run of mathematical formula in .RMD \[ {J(\theta) =\frac{1}{2m} [\sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j} \] ### md vs .rmd in blogdown title with 3 #s
  </description>
     </item>
     
