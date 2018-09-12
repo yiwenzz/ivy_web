@@ -1,5 +1,5 @@
 ---
-title: Sample Time Series Analysis - Iron man 3
+title: Sample Time Series Analysis - Movie statistics
 author: Yiwen Wu
 date: '2016-04-20'
 categories:
@@ -8,11 +8,6 @@ tags:
   - Statistics
 
 ---
-
-
-$$ 
-{J(\theta) =\frac{1}{2m} [\sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j} 
-$$
 
 
 
