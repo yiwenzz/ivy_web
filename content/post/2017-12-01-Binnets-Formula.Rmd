@@ -5,7 +5,6 @@ categories:
   - Products
 tags:
   - Combinatorics
-  - Mathematics
 ---
 
 
@@ -17,9 +16,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The Binet's formula is also known as the explicit expression of *n-th* term of the Fibbonacci Sequence. 
 
-### Introduction 
+
+### Brief Introduction 
 Counting is a very basic skill. We have all been learning how to count since we were very young. If we think back to our childhood, other than simple vocabulary like “daddy” and “mommy”, the most common thing was to count the numbers from one to ten. In this case, counting could be the first exposure to mathematics for many people. Now, we still count in daily life, such as money exchange, time management, fortune accumulation, etc. However, the beauty of counting is more than that. We can apply the concept of counting in various mathematical problems and proofs.
 
-In 1843, the French mathematician Jacques Philippe Marie Binet found an explicit representation for terms of the Fibonacci sequence by...
+### Tools
 
-The .pdf file will be ready to download soon.
+I employed counting's principle, DIE method by modern mathematician Doron Zeiberger. Principles in combinatorics are pioneered by modern mathematician Benjamin and Quinn. Without all knowledge above, there is no such proof can be exsited. Contact for more information.
+
+

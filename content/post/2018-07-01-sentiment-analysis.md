@@ -5,7 +5,7 @@ categories:
   - Thoughts
 tags:
   - Text analysis
-  - Text mining
+  - Data mining
   - Python
   - Data
 ---

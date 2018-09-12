@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>/post/2016/04/20/sample-time-series-analysis---iron-man-3/</loc>
+    <loc>/post/2016/04/20/sample-time-series-analysis---movie-statistics/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -71,13 +71,13 @@
   </url>
   
   <url>
-    <loc>/tags/esri/</loc>
-    <lastmod>2018-04-20T21:49:57-07:00</lastmod>
+    <loc>/tags/data-mining/</loc>
+    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/gis/</loc>
+    <loc>/tags/esri/</loc>
     <lastmod>2018-04-20T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -85,18 +85,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2018-08-18T21:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/life/</loc>
-    <lastmod>2018-08-18T21:49:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/mathematics/</loc>
-    <lastmod>2017-12-01T21:49:57-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -131,12 +119,6 @@
   
   <url>
     <loc>/tags/text-analysis/</loc>
-    <lastmod>2018-07-01T21:49:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/text-mining/</loc>
     <lastmod>2018-07-01T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
