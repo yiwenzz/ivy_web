@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Yiwen Wu"
+title = "Yiwen"
 theme = "hugo-ivy"
 math = true
 googleAnalytics = ""
@@ -32,10 +32,12 @@ footnotereturnlinkcontents = "↩"
 [[menu.main]]
     name = "CV"
     url = "/cv/"
+  
+
 
 [params]
     description = ""
-    footer = "&copy; [KU](https://ku.edu) 2018 | [GitHub](https://github.com/) | [Twitter](https://twitter.com/ywuKU)"
+    footer = "&copy; [KU](https://ku.edu) 2018 | [GitHub](https://github.com/yiwenzz) | [Twitter](https://twitter.com/ywuKU)"
 
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdn.bootcss.com"
