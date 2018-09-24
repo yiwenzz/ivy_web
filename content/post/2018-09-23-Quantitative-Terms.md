@@ -7,7 +7,7 @@ tags:
   - Statistics
 ---
 
-# A Random blog from the weekend readings
+# A Random Blog From the Weekend Readings
 
 I would really love to have at least one blog posted at weekly basis. However, that is not likely to happen since life is hard, with no exception to myself. So, I have made this small goal of posting a blog of my readings from time to time. This week’s topic is about the quantitative terminology. In this blog, I will list definitions and terms that are very often used in statistics. Sources and references are from Google, *Social Statistics for a Diverse Society* by Chava Frankfort-Nachmias and Anna Leon-Guerrero (2011), and some of own interpretations.
 
@@ -35,7 +35,7 @@ I would really love to have at least one blog posted at weekly basis. However, t
 *   Parameter and statistic: parameters are measures used to describe the population and distribution (e.g., mean, std).
 * 	Statistic: a measure used to describe sample distribution.
 
-## Sampling approaches
+## Sampling Approaches
 
 * Simple random sampling
   * Every member of population has an equal chance of being chosen.
