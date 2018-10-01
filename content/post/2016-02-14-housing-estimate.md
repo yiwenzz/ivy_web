@@ -1,5 +1,5 @@
 ---
-title: Analysus of Housing Prices, Features Based Study  – Albuquerque, NM
+title: Analysis of Housing Prices, Features Based Study  – Albuquerque, NM
 author: Yiwen Wu
 date: '2016-02-14'
 categories:
