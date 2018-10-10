@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Yiwen</title>
+    <title>Home on Y.Wu</title>
     <link>/</link>
-    <description>Recent content in Home on Yiwen</description>
+    <description>Recent content in Home on Y.Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Sep 2018 21:49:57 -0700</lastBuildDate>
@@ -106,11 +106,11 @@ Hi, this is Yiwen, a graduate student studying at University of Kansas studying 
     </item>
     
     <item>
-      <title>Analysus of Housing Prices, Features Based Study  – Albuquerque, NM</title>
-      <link>/post/2016/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</link>
+      <title>Analysis of Housing Prices, Features Based Study  – Albuquerque, NM</title>
+      <link>/post/2016/02/14/analysis-of-housing-prices-features-based-study---albuquerque-nm/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2016/02/14/analysus-of-housing-prices-features-based-study---albuquerque-nm/</guid>
+      <guid>/post/2016/02/14/analysis-of-housing-prices-features-based-study---albuquerque-nm/</guid>
       <description>Introduction Analyzing home prices is based on different factors that could affect the price of a house. Home prices may be affected by different factors such as square footage, age, number of features, location, etc. In this study, a dataset from Albuquerque was taken including square feet, age, number of certain features (out of 11, from dishwasher, refrigerator, microwave, disposer, washer, intercom, skylight(s), compactor, dryer, handicap fit, cable TV access), custom built or not, corner location or not, whether the home was located in the Northeast sector of the city, and its annual taxes.</description>
     </item>
     

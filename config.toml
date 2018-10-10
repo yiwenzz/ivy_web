@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Yiwen"
+title = "Y.Wu"
 theme = "hugo-ivy"
 math = true
 googleAnalytics = ""
