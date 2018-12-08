@@ -6,10 +6,22 @@
     <description>Recent content in Statistics on Y.Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Sep 2018 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 21:49:57 -0700</lastBuildDate>
     
 	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Study Based on Demographics of 99 Iowa Counties</title>
+      <link>/post/2018/12/07/a-study-based-on-demographics-of-99-iowa-counties/</link>
+      <pubDate>Fri, 07 Dec 2018 21:49:57 -0700</pubDate>
+      
+      <guid>/post/2018/12/07/a-study-based-on-demographics-of-99-iowa-counties/</guid>
+      <description>Load Packages In order to accomplish these following tasks:
+ Data manipulation Correlation Histogram Visualization 2-sample t test  I use the these following packages in R:
+library(dplyr) library(magrittr) library(ggplot2) library(ggpubr) library(psych) library(Hmisc) library(devtools)  Import Data I used a .csv file to store all collected data from the U.S. Census. My target are 99 counties of the state of Iowa.
+my_data &amp;lt;- read.csv(&amp;quot;/Users/yiwenw/Desktop/741 data/Iowa.csv&amp;quot;, header=TRUE, stringsAsFactors=FALSE)  Check Variables By using head, we are able to check all variables collected for future data analysis.</description>
+    </item>
     
     <item>
       <title>Quantitative Terminologies</title>
