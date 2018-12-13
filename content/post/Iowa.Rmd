@@ -109,6 +109,7 @@ lines(density(x, adjust = 2), col = "red")
 
 
 Based on the population size, I devide 99 counties into three tiers of counties.
+
 1. Population between 3600 and 11000: 33 counties - pop1 - Tier 1
 2. Population between 11000 and 20000: 33 counties - pop2 - Tier 2
 3. Population between 20000 and 482000: 33 counties - pop3 - Tier 3

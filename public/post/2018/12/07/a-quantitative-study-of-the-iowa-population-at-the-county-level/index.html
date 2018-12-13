@@ -203,7 +203,12 @@ hist(x,main = &quot;Distribution of Mean of Income&quot;, xlab = &quot;Income Ra
      col = &quot;blue&quot;, border =&quot;black&quot;, prob = T )
 lines(density(x, adjust = 2), col = &quot;red&quot;)</code></pre>
 <p><img src="/post/Iowa_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
-<p>Based on the population size, I devide 99 counties into three tiers of counties. 1. Population between 3600 and 11000: 33 counties - pop1 - Tier 1 2. Population between 11000 and 20000: 33 counties - pop2 - Tier 2 3. Population between 20000 and 482000: 33 counties - pop3 - Tier 3</p>
+<p>Based on the population size, I devide 99 counties into three tiers of counties.</p>
+<ol style="list-style-type: decimal">
+<li>Population between 3600 and 11000: 33 counties - pop1 - Tier 1</li>
+<li>Population between 11000 and 20000: 33 counties - pop2 - Tier 2</li>
+<li>Population between 20000 and 482000: 33 counties - pop3 - Tier 3</li>
+</ol>
 <pre class="r"><code>pop1 &lt;- filter(my_data, by.pop == 1)
 y1 &lt;- pop1$mean.income
 hist(y1,main = &quot;Income Distribution of Counties in the First Tier&quot;, xlab = &quot;Income Range&quot;,
