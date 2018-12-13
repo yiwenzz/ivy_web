@@ -1,5 +1,5 @@
 ---
-title: "A Study Based on Demographics of 99 Iowa Counties"
+title: "A Quantitative Study of the Iowa Population at the County Level"
 date: "2018-12-07T21:49:57-07:00"
 categories:
   - Products
@@ -16,7 +16,31 @@ knitr::opts_chunk$set(echo = TRUE)
 ![](https://upload.wikimedia.org/wikipedia/commons/f/fc/Blank_Iowa_county_map_with_county_names.svg)
 
 
-## Load Packages
+# Introduction
+
+### Goals
+The goal of this study is to look at: 
+
+* What is the relationships between the population and other variables, such as education attainment, poverty, the mean of income, and the median house value.
+* Visually display the distribution of median house values across the state, and three frequency distributions based on the population of a county. All counties are evenly divided into three tiers:
+    + Tier 1: population size from 3,000 to 11,000 (33 counties)
+    + Tier 2: population size form 11,000 to 20,000 (33 counties)
+    + Tier 3: population size form 20,000 to 48,200 (33 counties)
+* Correlations between:
+    + Number of bechelor received and number of poverty.
+    + Median house value and the mean of income.
+    + Number of employed and the mean of income.
+    + Number of employed and the number under poverty.
+* T test.  
+### Data
+All data sets are collected through the U.S. Census at <https://www.census.gov/>. 
+    
+    
+# Methods
+
+
+
+### load Packages 
 In order to accomplish these following tasks: 
 
 * Data manipulation
@@ -61,7 +85,18 @@ summary(my_data)
 
 
 ### Histograms and Density Distributions
+```{r}
+y <- my_data$median.house
+hist(y,main = "Distribution of Median House Value", xlab = "Value Range", 
+     xlim = c(0, 220000), col = "blue", border ="black", prob=TRUE)
+lines(density(y, adjust = 2), col = "red")
 
+```
+
+Recall: based on the population size, we devide 99 counties into three tiers of counties.
+1. Population between 3,000 and 11,000: 33 counties - pop1 - Tier 1
+2. Population between 11,000 and 20,000: 33 counties - pop2 - Tier 2
+3. Population between 20,000 and 482,000: 33 counties - pop3 - Tier 3
 
 ```{r}
 x <- my_data$mean.income
@@ -71,18 +106,12 @@ lines(density(x, adjust = 2), col = "red")
 
 ```
 
-```{r}
-y <- my_data$median.house
-hist(y,main = "Distribution of Median House Value", xlab = "Value Range", 
-     xlim = c(0, 220000), col = "blue", border ="black", prob=TRUE)
-lines(density(y, adjust = 2), col = "red")
 
-```
 
 Based on the population size, I devide 99 counties into three tiers of counties.
-1. Population between 3600 and 11000: 33 counties -pop1
-2. Population between 11000 and 20000: 33 counties - pop2
-3. Population between 20000 and 482000: 33 counties - pop3
+1. Population between 3600 and 11000: 33 counties - pop1 - Tier 1
+2. Population between 11000 and 20000: 33 counties - pop2 - Tier 2
+3. Population between 20000 and 482000: 33 counties - pop3 - Tier 3
 
 
 
@@ -91,7 +120,7 @@ Based on the population size, I devide 99 counties into three tiers of counties.
 ```{r}
 pop1 <- filter(my_data, by.pop == 1)
 y1 <- pop1$mean.income
-hist(y1,main = "Income Distribution with Lower 1/3 House Values", xlab = "Income Range", 
+hist(y1,main = "Income Distribution of Counties in the First Tier", xlab = "Income Range",
      xlim = c(60000, 150000), col = "blue", border ="black", prob=TRUE)
 lines(density(y1, adjust = 2), col = "red")
 
@@ -108,7 +137,7 @@ head(pop1)
 ```{r}
 pop2 <- filter(my_data, by.pop == 2)
 y2 <- pop2$mean.income
-hist(y2,main = "Income Distribution with Middle 1/3 House Values", xlab = "Income Range", 
+hist(y2,main = "Income Distribution of Counties in the Second Tier", xlab = "Income Range", 
      xlim = c(60000, 150000), col = "blue", border ="black", prob=TRUE)
 lines(density(y2, adjust = 2), col = "red")
 
@@ -118,12 +147,13 @@ lines(density(y2, adjust = 2), col = "red")
 ```{r}
 pop3 <- filter(my_data, by.pop == 3)
 y3 <- pop3$mean.income
-hist(y3,main = "Income Distribution with Top 1/3 House Values", xlab = "Income Range", 
+hist(y3,main = "Income Distribution of Counties in the Third Tier", xlab = "Income Range",
      xlim = c(60000, 150000), col = "blue", border ="black", prob=TRUE)
 lines(density(y3, adjust = 2), col = "red")
 
 ```
-
+### Conlusion
+Based on the frequency distribution, as the size of population of a county increaces, the average income tends to increase.
 
 #### Correlation between number of bachelor over 25 in age and number under poverty
 Normally, we would expact the correlation between number of bechalor degrees obtained and the number of people under poverty. However, the truth can be: the more bechalors a county has, the bigger population it may have. Therefore, it is more likely to have more people under poverty.
@@ -164,10 +194,18 @@ correlation4
 ```
 
 
-##T- test
+## T- test
+Null: the means of income are the same.\
+Alternative: they are not the same.
+
 
 ```{r}
 res <- t.test(my_data$pop.2017, my_data$mean.income, data = my_data, var.equal = TRUE)
 res
 
 ```
+The p-value is smaller than 0.05. There is significant evidence to reject the null hypothesis. The means of income are not the same for counties with different population sizes. 
+
+
+
+

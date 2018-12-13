@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>A Study Based on Demographics of 99 Iowa Counties - Y.Wu</title>
-    <meta property="og:title" content="A Study Based on Demographics of 99 Iowa Counties - Y.Wu">
+    <title>A Quantitative Study of the Iowa Population at the County Level - Y.Wu</title>
+    <meta property="og:title" content="A Quantitative Study of the Iowa Population at the County Level - Y.Wu">
     
     <meta name="twitter:card" content="summary">
 
@@ -15,12 +15,14 @@
 
     
       
-      <meta property="description" content="In order to accomplish these following tasks:
+      <meta property="description" content="The goal of this study is to look at:
+[&amp;hellip;] In order to accomplish these following tasks:
 [&amp;hellip;] I use the these following packages in R:
-library(dplyr) library(magrittr) library(ggplot2) library(ggpubr) library(psych) library(Hmisc) &amp;hellip;">
-      <meta property="og:description" content="In order to accomplish these following tasks:
+library(dplyr) library(magrittr) library(ggplot2) &amp;hellip;">
+      <meta property="og:description" content="The goal of this study is to look at:
+[&amp;hellip;] In order to accomplish these following tasks:
 [&amp;hellip;] I use the these following packages in R:
-library(dplyr) library(magrittr) library(ggplot2) library(ggpubr) library(psych) library(Hmisc) &amp;hellip;">
+library(dplyr) library(magrittr) library(ggplot2) &amp;hellip;">
       
     
 
@@ -82,7 +84,7 @@ library(dplyr) library(magrittr) library(ggplot2) library(ggpubr) library(psych)
     <article class="main">
       <header class="title">
       
-<h1>A Study Based on Demographics of 99 Iowa Counties</h1>
+<h1>A Quantitative Study of the Iowa Population at the County Level</h1>
 
 <h3>
   2018-12-07</h3>
@@ -97,8 +99,35 @@ library(dplyr) library(magrittr) library(ggplot2) library(ggpubr) library(psych)
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Blank_Iowa_county_map_with_county_names.svg" />
 
 </div>
-<div id="load-packages" class="section level2">
-<h2>Load Packages</h2>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<div id="goals" class="section level3">
+<h3>Goals</h3>
+<p>The goal of this study is to look at:</p>
+<ul>
+<li>What is the relationships between the population and other variables, such as education attainment, poverty, the mean of income, and the median house value.</li>
+<li>Visually display the distribution of median house values across the state, and three frequency distributions based on the population of a county. All counties are evenly divided into three tiers:
+<ul>
+<li>Tier 1: population size from 3,000 to 11,000 (33 counties)</li>
+<li>Tier 2: population size form 11,000 to 20,000 (33 counties)</li>
+<li>Tier 3: population size form 20,000 to 48,200 (33 counties)</li>
+</ul></li>
+<li>Correlations between:
+<ul>
+<li>Number of bechelor received and number of poverty.</li>
+<li>Median house value and the mean of income.</li>
+<li>Number of employed and the mean of income.</li>
+<li>Number of employed and the number under poverty.</li>
+</ul></li>
+<li>T test.<br />
+### Data All data sets are collected through the U.S. Census at <a href="https://www.census.gov/" class="uri">https://www.census.gov/</a>.</li>
+</ul>
+</div>
+</div>
+<div id="methods" class="section level1">
+<h1>Methods</h1>
+<div id="load-packages" class="section level3">
+<h3>load Packages</h3>
 <p>In order to accomplish these following tasks:</p>
 <ul>
 <li>Data manipulation</li>
@@ -166,20 +195,21 @@ library(devtools)</code></pre>
 ##  Max.   :129274   Max.   :354927</code></pre>
 <div id="histograms-and-density-distributions" class="section level3">
 <h3>Histograms and Density Distributions</h3>
-<pre class="r"><code>x &lt;- my_data$mean.income
-hist(x,main = &quot;Distribution of Mean of Income&quot;, xlab = &quot;Income Range&quot;, 
-     col = &quot;blue&quot;, border =&quot;black&quot;, prob = T )
-lines(density(x, adjust = 2), col = &quot;red&quot;)</code></pre>
-<p><img src="/post/Iowa_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <pre class="r"><code>y &lt;- my_data$median.house
 hist(y,main = &quot;Distribution of Median House Value&quot;, xlab = &quot;Value Range&quot;, 
      xlim = c(0, 220000), col = &quot;blue&quot;, border =&quot;black&quot;, prob=TRUE)
 lines(density(y, adjust = 2), col = &quot;red&quot;)</code></pre>
+<p><img src="/post/Iowa_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>Recall: based on the population size, we devide 99 counties into three tiers of counties. 1. Population between 3,000 and 11,000: 33 counties - pop1 - Tier 1 2. Population between 11,000 and 20,000: 33 counties - pop2 - Tier 2 3. Population between 20,000 and 482,000: 33 counties - pop3 - Tier 3</p>
+<pre class="r"><code>x &lt;- my_data$mean.income
+hist(x,main = &quot;Distribution of Mean of Income&quot;, xlab = &quot;Income Range&quot;, 
+     col = &quot;blue&quot;, border =&quot;black&quot;, prob = T )
+lines(density(x, adjust = 2), col = &quot;red&quot;)</code></pre>
 <p><img src="/post/Iowa_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
-<p>Based on the population size, I devide 99 counties into three tiers of counties. 1. Population between 3600 and 11000: 33 counties -pop1 2. Population between 11000 and 20000: 33 counties - pop2 3. Population between 20000 and 482000: 33 counties - pop3</p>
+<p>Based on the population size, I devide 99 counties into three tiers of counties. 1. Population between 3600 and 11000: 33 counties - pop1 - Tier 1 2. Population between 11000 and 20000: 33 counties - pop2 - Tier 2 3. Population between 20000 and 482000: 33 counties - pop3 - Tier 3</p>
 <pre class="r"><code>pop1 &lt;- filter(my_data, by.pop == 1)
 y1 &lt;- pop1$mean.income
-hist(y1,main = &quot;Income Distribution of Lower 1/3 Populated Counties&quot;, xlab = &quot;Income Range&quot;,
+hist(y1,main = &quot;Income Distribution of Counties in the First Tier&quot;, xlab = &quot;Income Range&quot;,
      xlim = c(60000, 150000), col = &quot;blue&quot;, border =&quot;black&quot;, prob=TRUE)
 lines(density(y1, adjust = 2), col = &quot;red&quot;)</code></pre>
 <p><img src="/post/Iowa_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
@@ -202,16 +232,16 @@ lines(density(y1, adjust = 2), col = &quot;red&quot;)</code></pre>
 ## 6         416          1001        74700       65938    20110</code></pre>
 <pre class="r"><code>pop2 &lt;- filter(my_data, by.pop == 2)
 y2 &lt;- pop2$mean.income
-hist(y2,main = &quot;Income Distribution of Middle 1/3 Populated Counties&quot;, xlab = &quot;Income Range&quot;, 
+hist(y2,main = &quot;Income Distribution of Counties in the Second Tier&quot;, xlab = &quot;Income Range&quot;, 
      xlim = c(60000, 150000), col = &quot;blue&quot;, border =&quot;black&quot;, prob=TRUE)
 lines(density(y2, adjust = 2), col = &quot;red&quot;)</code></pre>
 <p><img src="/post/Iowa_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <pre class="r"><code>pop3 &lt;- filter(my_data, by.pop == 3)
 y3 &lt;- pop3$mean.income
-hist(y3,main = &quot;Income Distribution of Top 1/3 Populated Counties&quot;, xlab = &quot;Income Range&quot;,
+hist(y3,main = &quot;Income Distribution of Counties in the Third Tier&quot;, xlab = &quot;Income Range&quot;,
      xlim = c(60000, 150000), col = &quot;blue&quot;, border =&quot;black&quot;, prob=TRUE)
 lines(density(y3, adjust = 2), col = &quot;red&quot;)</code></pre>
-<p><img src="/post/Iowa_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="/post/Iowa_files/figure-html/unnamed-chunk-11-1.png" width="672" /> ### Conlusion Based on the frequency distribution, as the size of population of a county increaces, the average income tends to increase.</p>
 <div id="correlation-between-number-of-bachelor-over-25-in-age-and-number-under-poverty" class="section level4">
 <h4>Correlation between number of bachelor over 25 in age and number under poverty</h4>
 <p>Normally, we would expact the correlation between number of bechalor degrees obtained and the number of people under poverty. However, the truth can be: the more bechalors a county has, the bigger population it may have. Therefore, it is more likely to have more people under poverty.</p>
@@ -248,6 +278,8 @@ correlation4</code></pre>
 </div>
 <div id="t--test" class="section level2">
 <h2>T- test</h2>
+<p>Null: the means of income are the same.<br />
+Alternative: they are not the same.</p>
 <pre class="r"><code>res &lt;- t.test(my_data$pop.2017, my_data$mean.income, data = my_data, var.equal = TRUE)
 res</code></pre>
 <pre><code>## 
@@ -261,6 +293,8 @@ res</code></pre>
 ## sample estimates:
 ## mean of x mean of y 
 ##  31774.86  81652.77</code></pre>
+<p>The p-value is smaller than 0.05. There is significant evidence to reject the null hypothesis. The means of income are not the same for counties with different population sizes.</p>
+</div>
 </div>
 
 
