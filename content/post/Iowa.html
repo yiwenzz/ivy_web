@@ -16,8 +16,6 @@ tags:
 </div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<div id="goals" class="section level3">
-<h3>Goals</h3>
 <p>The goal of this study is to look at:</p>
 <ul>
 <li>What is the relationships between the population and other variables, such as education attainment, poverty, the mean of income, and the median house value.</li>
@@ -34,15 +32,14 @@ tags:
 <li>Number of employed and the mean of income.</li>
 <li>Number of employed and the number under poverty.</li>
 </ul></li>
-<li>T test.<br />
-### Data All data sets are collected through the U.S. Census at <a href="https://www.census.gov/" class="uri">https://www.census.gov/</a>.</li>
+<li>T test.</li>
 </ul>
-</div>
+<p>All data are collected through the U.S. Census at <a href="https://www.census.gov/" class="uri">https://www.census.gov/</a>.</p>
 </div>
 <div id="methods" class="section level1">
 <h1>Methods</h1>
-<div id="load-packages" class="section level3">
-<h3>load Packages</h3>
+<div id="load-packages" class="section level2">
+<h2>load Packages</h2>
 <p>In order to accomplish these following tasks:</p>
 <ul>
 <li>Data manipulation</li>
@@ -108,8 +105,8 @@ library(devtools)</code></pre>
 ##  Mean   : 81653   Mean   : 24844  
 ##  3rd Qu.: 85658   3rd Qu.: 19728  
 ##  Max.   :129274   Max.   :354927</code></pre>
-<div id="histograms-and-density-distributions" class="section level3">
-<h3>Histograms and Density Distributions</h3>
+<div id="histograms-and-densityfrequency-distributions" class="section level3">
+<h3>Histograms and Density/Frequency Distributions</h3>
 <pre class="r"><code>y &lt;- my_data$median.house
 hist(y,main = &quot;Distribution of Median House Value&quot;, xlab = &quot;Value Range&quot;, 
      xlim = c(0, 220000), col = &quot;blue&quot;, border =&quot;black&quot;, prob=TRUE)

@@ -18,7 +18,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-### Goals
 The goal of this study is to look at: 
 
 * What is the relationships between the population and other variables, such as education attainment, poverty, the mean of income, and the median house value.
@@ -32,15 +31,16 @@ The goal of this study is to look at:
     + Number of employed and the mean of income.
     + Number of employed and the number under poverty.
 * T test.  
-### Data
-All data sets are collected through the U.S. Census at <https://www.census.gov/>. 
+
+All data are collected through the U.S. Census at <https://www.census.gov/>. 
     
     
 # Methods
 
 
 
-### load Packages 
+## load Packages 
+
 In order to accomplish these following tasks: 
 
 * Data manipulation
@@ -84,7 +84,7 @@ summary(my_data)
 
 
 
-### Histograms and Density Distributions
+### Histograms and Density/Frequency Distributions
 ```{r}
 y <- my_data$median.house
 hist(y,main = "Distribution of Median House Value", xlab = "Value Range", 
