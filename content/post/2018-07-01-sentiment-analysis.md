@@ -7,7 +7,7 @@ tags:
   - Text analysis
   - Data mining
   - Python
-  - Data
+  - Data Analysis
 ---
 
 # Sentiment Analysis of Online Education Programs

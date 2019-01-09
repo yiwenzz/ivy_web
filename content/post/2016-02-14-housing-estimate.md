@@ -6,7 +6,7 @@ categories:
   - Products
 tags:
   - Statistics
-  - Data
+  - Data Analysis
 
 ---
 
