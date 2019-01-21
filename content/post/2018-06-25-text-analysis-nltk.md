@@ -5,8 +5,8 @@ categories:
   - Products
 tags:
   - Python
-  - Text Analysis
-  - Data Analysis
+  - Text analysis
+  - Data
 ---
 
 This is a brief introduction to text analysis by using python. To be general, the processes are as follows:

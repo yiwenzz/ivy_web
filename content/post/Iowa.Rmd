@@ -5,7 +5,7 @@ categories:
   - Products
 tags:
   - Statistics 
-  - Data Analysis
+  - Data 
 ---
 
 ```{r setup, include=FALSE}
