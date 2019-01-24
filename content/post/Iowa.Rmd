@@ -63,7 +63,7 @@ library(devtools)
 I used a .csv file to store all collected data from the U.S. Census. My target are 99 counties of the state of Iowa.
 
 ```{r}
-my_data <- read.csv("/Users/yiwenw/Desktop/741 data/Iowa.csv", header=TRUE, stringsAsFactors=FALSE)
+my_data <- read.csv("/Users/yiwenw/Desktop/Archive/2018F/741Quan1/741 data/Iowa.csv", header=TRUE, stringsAsFactors=FALSE)
 ```
 
 
