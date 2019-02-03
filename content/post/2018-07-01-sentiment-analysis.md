@@ -1,5 +1,5 @@
 ---
-title: "Ideas of Sentiment Analysis Project"
+title: "Sentiment Analysis Projects"
 date: "2018-07-01T21:49:57-07:00"
 categories:
   - Thoughts
@@ -10,13 +10,16 @@ tags:
   - Data
 ---
 
-# Sentiment Analysis of Online Education Programs
 
-The sentiment analysis (SA) by Liu 2014 brought many good aspects to both academics and web-based industries. 
+Contemporary sentiment analysis has been applied to online customer reviews (Amazon kind of basis). Robust computational algorithm has been applied to online flight ticket sales.
 
-当下SA已经被用于分析顾客反馈，例如航空网络售票系统。
+The idea of this project is to use the same knowledge developed by computer scientists Liu in 2014 to grab students’ reviews for their taken online courses. However, it can be challenging in the following aspects:
 
-对于用网络授课的公司网页系统，我们将进行网页数据抓取(web scraping)，然后利用Liu的方法进行public opinion分析。主要步骤如下：
+* Online forum data privacy regarding the students and the institutions.
+* Basic web developoinig knowledge and tools are required.
+
+
+The process of conducting the research includes:
 
 1. Retriving
 2. Parsing
@@ -25,10 +28,10 @@ The sentiment analysis (SA) by Liu 2014 brought many good aspects to both academ
 
 ***
 
-研究目的如下：
 
-* 探索学生偏好。由于网上教育是一种新型授课模式，用public opinion的方式来探索学生对课程的评价
-* 教育项目/课程评估
-* 教师评估
-* References for future students and program managers
+Implications:
+
+* Find what students like/dislike about the course.
+* Program/instructor evaluation.
+* References for future students and program/course managers.
 
